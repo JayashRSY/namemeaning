@@ -184,6 +184,12 @@ line-height:1;
 </head>
 <body id="body1"><center>
 
+     <div id="container">
+            <h2>•• Word Counter ••</h2>
+            <div id="result"></div>
+            <textarea id="string" placeholder="Input or copy/paste texts here to count"></textarea>
+        </div>
+        
 
 
 <div id="div1">
@@ -312,7 +318,7 @@ if(name1.match(letters))
 document.getElementById("alert_").style.display = "none";
 document.getElementById("div1").style.display = "none";
 document.getElementById("div2").style.display = "block";
-document.getElementById("div2").innerHTML += "<br>Thank you "+name1+" for Entering your Amazing Name 🤗 It's Really Meaningful!";
+document.getElementById("div2").innerHTML += "<br>Thank you "+name1+" for Entering your Amazing Name 🤗";
 } else {
 document.getElementById("div22").innerHTML = "";
 document.getElementById("alert_").style.display = "block";
@@ -323,5 +329,10 @@ return false;
 
 </script>
 
-</center></body>
+</center>
+    <div id="myName">
+            <span> </span>
+            <br />
+            <span> &copy; Jayash </copy>
+        </div></body>
 </html>
